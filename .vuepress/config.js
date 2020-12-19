@@ -20,6 +20,10 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
+    "valineConfig": {
+      "appId": "process.env.APPID",
+      "appKey": "process.env.APPKEY",
+    },
     "nav": [
       {
         "text": "Home",
@@ -97,5 +101,6 @@ module.exports = {
   },
   "markdown": {
     "lineNumbers": true
-  }
+  },
+
 }
